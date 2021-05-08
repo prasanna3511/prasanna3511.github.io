@@ -1,0 +1,26 @@
+h1{
+    color:red;
+}
+
+a:hover{
+    color:orange;
+}
+
+
+#instgram:hover{
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px  2px  2px  grey;
+}
+#facebook:hover{
+    border-radius: 2px;
+        box-shadow: 2px 2px 2px  2px  grey;
+}
+#linkdin:hover{
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px  2px   grey;
+}
+
+li:hover{
+  
+    color: orangered;
+}
