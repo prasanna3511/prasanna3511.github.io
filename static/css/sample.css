@@ -11,11 +11,13 @@ a:hover{
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px  2px  2px  grey;
 }
+
 #facebook:hover{
     border-radius: 2px;
         box-shadow: 2px 2px 2px  2px  grey;
 }
-#linkdin:hover{
+
+#linkedin:hover{
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px  2px   grey;
 }
