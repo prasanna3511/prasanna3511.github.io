@@ -2,12 +2,13 @@ h1{
     color:red;
 }
 
-  div n {
+  div z {
 
      font-family: 'Railway' , sans-serif;
-      max-width: 200px;
+      max-width: 20px;
       margin: auto;
   }
+  
 a:hover{
     color:orange;
 }
