@@ -2,6 +2,12 @@ h1{
     color:red;
 }
 
+  div n {
+
+     font-family: 'Railway' , sans-serif;
+      max-width: 200px;
+      margin: auto;
+  }
 a:hover{
     color:orange;
 }
