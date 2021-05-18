@@ -7,16 +7,13 @@ header {
     
     line-height: 2.3em;
     font-family: 'Railway' , sans-serif;
-      max-width: 250px;
-      margin: auto;
-
-
+    
 }
 
   body {
 
    
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 10px;
     background-image: url('C:\Users\prasa\Desktop\allcodes\Prasanna portfolio\prasanna3511.github.io\static\images');
   }
