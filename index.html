@@ -21,11 +21,57 @@
         }
 
         header{
+           
+          background-image: url('static/images/newimg.jpg');
+          background-repeat: no-repeat;
+             
+             background-size:  center;
+             background-position:  center;
 
-          background-image: url();
+             padding-left: 100px;
+             padding-right: 100px;
+            
         }
 
-    </style>
+        
+		body header {
+			margin: auto;
+			padding: auto;
+		}
+
+		div {
+			position: absolute;
+			
+			padding-left: 400px;
+			transform: translate(-50%, -50%);
+		}
+    h3 {
+			font-size: 2.3em;
+			font-family: serif;
+			color: #008000;
+			text-align: center;
+			animation: animate
+				3s linear infinite;
+		}
+
+		@keyframes animate {
+			0% {
+				opacity: 0;
+			}
+
+			50% {
+				opacity: 0.7;
+			}
+
+			100% {
+				opacity: 0;
+			}
+		}
+	
+
+	</style>
+
+    
       
    </head>
 
@@ -34,10 +80,11 @@
 
     <header>
       <center>
-         <p><h5>I am</h5></p>
-         <h1><b>Prasanna joshi</b></h1>
-
-         <h3> Engineer and Developer </h3>
+         <p><h5 style="color: antiquewhite;">I am</h5></p>
+          <h1><b>Prasanna joshi</b></h1>
+         <div>
+         <h3 style="color: antiquewhite;">  Engineer  </h3>
+        </div>
          <br/>
          <br/>
          <br/>
@@ -45,20 +92,20 @@
     
     </header>  
 
-    
-     <p>Name :<b> Prasanna Harish Joshi</b></p>
+     <section>
+     <p>Name <b>: Prasanna Harish Joshi</b></p>
      
-     <p>Birthdate :<b> 10 dec 2001</b></p>
+     <p>Birthdate <b>: 10 dec 2001</b></p>
     
-    <p>Age :<b> 20</b></p>
+    <p>Age <b>: 20</b></p>
   
-     <p>Email : <b>prasannajoshi3511@gmail.com</b></p>
+     <p>Email  <b>: prasannajoshi3511@gmail.com</b></p>
      
-     <p>Phone number : <b>8624053511</b></p>
+     <p>Phone number  <b>: 8624053511</b></p>
      
      <br/>
 
-    
+    </section>
 
      
      <h1><b>Resume </b></h1>
@@ -145,6 +192,7 @@
 
      </span>
 
+   
      <br/>
 
      <p>Contact info</p>
