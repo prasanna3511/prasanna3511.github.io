@@ -38,6 +38,7 @@
     
     ul {
         margin-left: 5%;
+        line-height: 2em;
     }
     
     .degree {
@@ -56,11 +57,6 @@
         text-decoration: none;
         margin: 0;
         padding: 0;
-    }
-    
-    header {
-        line-height: 2.3em;
-        font-family: 'Railway', sans-serif;
     }
     
     body section {
@@ -87,27 +83,37 @@
     }
     
     .head {
+        background-image: url('newimg.jpg');
+        height: 100%;
+        background-size: cover;
+        z-index: -2;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: aliceblue;
         text-align: center;
         text-transform: capitalize;
-        margin-top: 50px;
     }
     
     .smedia {
-        border: 5px solid orangered;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-direction: row;
+        padding: 5%;
     }
     
     .smedia img {
-        width: "50px" height: "50px"
+        width: 50px;
+        height: 50px;
     }
     
     .som {
-        margin: 30px;
         font-size: 30px;
         font-family: monospace;
         text-align: center;
+    }
+    
+    .image {
+        border: 3px solid rgb(236, 107, 60);
     }
     
     .foot {
