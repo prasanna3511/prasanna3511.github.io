@@ -1,142 +1,137 @@
-    h1 {
-        color: orangered;
-        text-align: center;
-        font-size: 30px;
-        transition: all 4s;
-        text-shadow: 8px 8px 10px dodgerblue;
-        transform: translateY(-25px);
-        z-index: -1;
+h1 {
+    color: orangered;
+    text-align: center;
+    font-size: 30px;
+    transition: all 4s;
+    text-shadow: 8px 8px 10px dodgerblue;
+    transform: translateY(-25px);
+    z-index: -1;
+}
+
+body {
+    text-transform: capitalize;
+}
+
+.extra {
+    font: 2em sans-serif;
+    color: chocolate;
+}
+
+#aboutme {
+    color: orangered;
+    position: relative;
+    display: flex;
+    display: inline;
+    top: 0;
+    text-shadow: 8px 8px 10px dodgerblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    border: 3px solid rgb(221, 153, 107);
+    background-color: rgb(218, 218, 218);
+}
+
+ul {
+    margin-left: 5%;
+    line-height: 2em;
+}
+
+.degree {
+    font: 2em sans-serif;
+    color: chocolate;
+}
+
+.hhead {
+    font: 1.2em monospace;
+    color: rgb(233, 112, 27);
+}
+
+.languag {
+    font: 2em sans-serif;
+    color: chocolate;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body section {
+    font-family: 'Railway', sans-serif;
+}
+
+a:hover {
+    color: orange;
+}
+
+#instgram:hover {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#facebook:hover {
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#linkedin:hover {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.head {
+    z-index: -2;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100vw;
+    height: 100vh;
+}
+
+.smedia {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.smedia img {
+    width: 50px;
+    height: 50px;
+}
+
+.som {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.image {
+    border: 3px solid rgb(236, 107, 60);
+}
+
+.foot {
+    margin-top: 300px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 5em;
+    font-family: serif;
+    color: #f31414;
+    text-align: center;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
     }
-    
-    body {
-        margin: 2%;
-        text-transform: capitalize;
+    50% {
+        opacity: 0.7;
     }
-    
-    .extra {
-        font: 2em sans-serif;
-        color: chocolate;
+    100% {
+        opacity: 0;
     }
-    
-    #aboutme {
-        color: orangered;
-        position: relative;
-        display: flex;
-        display: inline;
-        top: 0;
-        text-shadow: 8px 8px 10px dodgerblue;
-        font-size: 30px;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    
-    section {
-        border: 3px solid rgb(221, 153, 107);
-        background-color: rgb(218, 218, 218);
-    }
-    
-    ul {
-        margin-left: 5%;
-        line-height: 2em;
-    }
-    
-    .degree {
-        font: 2em sans-serif;
-        color: chocolate;
-    }
-    
-    .hhead {
-        font: 1.2em monospace;
-        color: rgb(233, 112, 27);
-    }
-    
-    .languag {
-        font: 2em sans-serif;
-        color: chocolate;
-        text-decoration: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    body section {
-        font-family: 'Railway', sans-serif;
-    }
-    
-    a:hover {
-        color: orange;
-    }
-    
-    #instgram:hover {
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 2px 2px 2px 2px grey;
-    }
-    
-    #facebook:hover {
-        border-radius: 2px;
-        box-shadow: 2px 2px 2px 2px grey;
-    }
-    
-    #linkedin:hover {
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 2px 2px 2px 2px grey;
-    }
-    
-    .head {
-        background-image: url('newimg.jpg');
-        height: 100%;
-        background-size: cover;
-        z-index: -2;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-color: aliceblue;
-        text-align: center;
-        text-transform: capitalize;
-    }
-    
-    .smedia {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        padding: 5%;
-    }
-    
-    .smedia img {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .som {
-        font-size: 30px;
-        font-family: monospace;
-        text-align: center;
-    }
-    
-    .image {
-        border: 3px solid rgb(236, 107, 60);
-    }
-    
-    .foot {
-        margin-top: 300px;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 5em;
-        font-family: serif;
-        color: #f31414;
-        text-align: center;
-        animation: animate 3s linear infinite;
-    }
-    
-    @keyframes animate {
-        0% {
-            opacity: 0;
-        }
-        50% {
-            opacity: 0.7;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
+}
