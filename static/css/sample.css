@@ -142,3 +142,10 @@ h3 {
         opacity: 0;
     }
 }
+
+.projects {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
