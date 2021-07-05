@@ -3,7 +3,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     transition: all 4s;
-    text-shadow: 8px 8px 10px dodgerblue;
+    text-shadow: 8px 8px 10px rgb(0, 3, 7);
     transform: translateY(-25px);
     z-index: -1;
 }
@@ -35,7 +35,6 @@ section {
 }
 
 ul {
-    margin-left: 5%;
     line-height: 2em;
 }
 
@@ -55,6 +54,11 @@ ul {
     text-decoration: none;
     margin: 0;
     padding: 0;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-around;
 }
 
 body section {
@@ -80,12 +84,18 @@ a:hover {
     box-shadow: 2px 2px 2px 2px grey;
 }
 
+.bgimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .head {
     z-index: -2;
     text-align: center;
     text-transform: capitalize;
     width: 100vw;
-    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .smedia {
