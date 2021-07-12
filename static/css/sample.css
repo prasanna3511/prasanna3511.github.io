@@ -170,3 +170,22 @@ h3 {
     color: rgb(202, 83, 53);
     text-align: center;
 }
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid palevioletred;
+}
+
+.button {
+    width: 200px;
+    color: #f31414;
+    height: 30px;
+}
+
+.name {
+    width: 200px;
+    height: 30px;
+}
